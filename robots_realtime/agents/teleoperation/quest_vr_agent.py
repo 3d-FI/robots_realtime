@@ -55,8 +55,8 @@ _YAM_JOINT_LIMITS: List[Tuple[float, float]] = [
 
 _DANGER_ZONE_RAD = 0.05
 _MAX_JOINT_VEL_RAD_PER_S = 0.5
-_GRIPPER_OPEN = 0.0
-_GRIPPER_CLOSED = 2.4
+_GRIPPER_OPEN = 1.0
+_GRIPPER_CLOSED = 0.0
 
 
 def _webxr_to_robot_pos(pos_webxr: np.ndarray) -> np.ndarray:

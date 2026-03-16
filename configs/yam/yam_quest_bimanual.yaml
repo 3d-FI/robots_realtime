@@ -35,7 +35,7 @@ hz: 30.0
 
 robots:
   left: ["robot_configs/yam/left.yaml"]
-  right: ["robot_configs/yam/left.yaml", "robot_configs/yam/right.yaml"]
+  right: ["robot_configs/yam/right.yaml"]
 
 agent:
   _target_: robots_realtime.agents.teleoperation.quest_vr_agent.QuestVRAgent
